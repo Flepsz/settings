@@ -1,4 +1,6 @@
+
 {
+
     "emmet.syntaxProfiles": {
       "javascript": "jsx"
     },
@@ -20,7 +22,6 @@
       ".prettierrc": "json"
     },
     "screencastMode.onlyKeyboardShortcuts": true,
-
     "editor.parameterHints.enabled": false,
     "editor.renderLineHighlight": "gutter",
     "cSpell.language": "en,pt",
