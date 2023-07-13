@@ -1,8 +1,10 @@
-# Settings VsCode Flepsz
+# Settings Flepsz
+## Git Config
 ```
 git config user.name "Flepsz"
 git config user.email "luisfelipelfsp3@gmail.com"
 ```
+## VsCode settings.json
 ```
 {
     "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
