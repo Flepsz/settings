@@ -1,5 +1,8 @@
 # Settings VsCode Flepsz
-
+```
+git config user.name "Flepsz"
+git config user.email "luisfelipelfsp3@gmail.com"
+```
 ```
 {
     "emmet.syntaxProfiles": {
