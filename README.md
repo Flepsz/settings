@@ -17,6 +17,7 @@ git config user.email "luisfelipelfsp3@gmail.com"
     "editor.formatOnSave": true,
     "prettier.tabWidth": 4,
     "workbench.tree.indent": 15,
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[python]": {
         "editor.formatOnType": true
     },
