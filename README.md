@@ -8,8 +8,7 @@ git config user.email "luisfelipelfsp3@gmail.com"
 ```
 {
     "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
-    "window.zoomLevel": 0,
-    "editor.tabSize": 4,
+    "editor.tabSize": 2,
     "files.autoSave": "afterDelay",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
@@ -17,11 +16,11 @@ git config user.email "luisfelipelfsp3@gmail.com"
     "terminal.integrated.fontFamily": "Fira Code",
     "editor.wordWrap": "on",
     "editor.formatOnSave": true,
-    "prettier.tabWidth": 4,
     "workbench.tree.indent": 15,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[python]": {
-        "editor.formatOnType": true
+        "editor.formatOnType": true,
+        "editor.defaultFormatter": "ms-python.python"
     },
     "workbench.editorAssociations": {
         "*.db": "sqlite-viewer.option"
@@ -55,29 +54,31 @@ git config user.email "luisfelipelfsp3@gmail.com"
         ".stylelintrc": "json",
         "*.tsx": "typescriptreact",
         ".env.*": "dotenv",
-        ".prettierrc": "json"
+        ".prettierrc": "json",
+        "*.html": "html"
     },
     "screencastMode.onlyKeyboardShortcuts": true,
     "editor.parameterHints.enabled": false,
     "editor.renderLineHighlight": "gutter",
     "cSpell.language": "en,pt",
-    "material-icon-theme.languages.associations": {
-        "dotenv": "tune"
-    },
+    // "material-icon-theme.languages.associations": {
+    //     "dotenv": "tune"
+    // },
     "typescript.updateImportsOnFileMove.enabled": "never",
-    "material-icon-theme.files.associations": {
-        "tsconfig.json": "tune",
-        "*.webpack.js": "webpack",
-        "*.proto": "3d",
-        "ormconfig.json": "database"
-    },
-    "material-icon-theme.activeIconPack": "nest",
+    // "material-icon-theme.files.associations": {
+    //     "tsconfig.json": "tune",
+    //     "*.webpack.js": "webpack",
+    //     "*.proto": "3d",
+    //     "ormconfig.json": "database"
+    // },
+    // "material-icon-theme.activeIconPack": "nest",
     "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
     "gitlens.codeLens.recentChange.enabled": false,
     "terminal.integrated.showExitAlert": false,
     "[prisma]": {
-        "editor.formatOnSave": true
+        "editor.formatOnSave": true,
+        "editor.defaultFormatter": "Prisma.prisma"
     },
     "typescript.suggest.autoImports": true,
     "terminal.integrated.env.osx": {
@@ -88,38 +89,38 @@ git config user.email "luisfelipelfsp3@gmail.com"
         "javascript": "javascriptreact"
     },
     "liveshare.featureSet": "insiders",
-    "material-icon-theme.folders.associations": {
-        "adapters": "contract",
-        "grpc": "pipe",
-        "kube": "kubernetes",
-        "main": "lib",
-        "websockets": "pipe",
-        "implementations": "core",
-        "protos": "pipe",
-        "entities": "class",
-        "kafka": "pipe",
-        "use-cases": "functions",
-        "migrations": "tools",
-        "schemas": "class",
-        "useCases": "functions",
-        "eslint-config": "tools",
-        "typeorm": "database",
-        "_shared": "shared",
-        "mappers": "meta",
-        "fakes": "mock",
-        "modules": "components",
-        "subscribers": "messages",
-        "domain": "class",
-        "protocols": "contract",
-        "infra": "app",
-        "view-models": "views",
-        "presentation": "template",
-        "dtos": "typescript",
-        "http": "container",
-        "providers": "include",
-        "factories": "class",
-        "repositories": "mappings"
-    },
+    // "material-icon-theme.folders.associations": {
+    //     "adapters": "contract",
+    //     "grpc": "pipe",
+    //     "kube": "kubernetes",
+    //     "main": "lib",
+    //     "websockets": "pipe",
+    //     "implementations": "core",
+    //     "protos": "pipe",
+    //     "entities": "class",
+    //     "kafka": "pipe",
+    //     "use-cases": "functions",
+    //     "migrations": "tools",
+    //     "schemas": "class",
+    //     "useCases": "functions",
+    //     "eslint-config": "tools",
+    //     "typeorm": "database",
+    //     "_shared": "shared",
+    //     "mappers": "meta",
+    //     "fakes": "mock",
+    //     "modules": "components",
+    //     "subscribers": "messages",
+    //     "domain": "class",
+    //     "protocols": "contract",
+    //     "infra": "app",
+    //     "view-models": "views",
+    //     "presentation": "template",
+    //     "dtos": "typescript",
+    //     "http": "container",
+    //     "providers": "include",
+    //     "factories": "class",
+    //     "repositories": "mappings"
+    // },
     "editor.acceptSuggestionOnCommitCharacter": false,
     "explorer.compactFolders": false,
     "git.enableSmartCommit": true,
@@ -136,7 +137,6 @@ git config user.email "luisfelipelfsp3@gmail.com"
     ],
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": true,
-    "workbench.productIconTheme": "fluent-icons",
     "gitlens.codeLens.authors.enabled": false,
     "security.workspace.trust.untrustedFiles": "newWindow",
     "files.exclude": {
@@ -165,6 +165,18 @@ git config user.email "luisfelipelfsp3@gmail.com"
         "editor.defaultFormatter": "vscode.json-language-features"
     },
     "window.commandCenter": true,
-    "git.openRepositoryInParentFolders": "always"
+    "git.openRepositoryInParentFolders": "always",
+    "editor.unicodeHighlight.allowedLocales": {
+        "es": true
+    },
+    "prettier.useTabs": true,
+    "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "ngClass",
+        "containerStyle",
+        "style"
+    ],
+    "editor.cursorBlinking": "expand"
 }
 ```
