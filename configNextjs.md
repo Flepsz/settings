@@ -44,7 +44,7 @@ yarn prettier . --write
     "semi": true,
     "trailingComma": "es5",
     "singleQuote": false,
-    "tabWidth": 4,
+    "tabWidth": 2,
     "useTabs": true
 }
 ```
