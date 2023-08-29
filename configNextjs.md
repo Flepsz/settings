@@ -1,3 +1,4 @@
+# Eslint
 ## eslintrc.json
 ```
 {
@@ -14,6 +15,28 @@
     "@typescript-eslint/no-explicit-any": "error"
   }
 }
+```
+# Prettier
+Installing:
+```
+yarn add --dev --exact prettier
+```
+Creating prettier config:
+```
+echo {}> .prettierrc.json
+```
+Creating prettierignore:
+```
+echo {}> .prettierignore
+```
+Add on prettierignore:
+```
+build
+coverage
+```
+Format all files:
+```
+yarn prettier . --write
 ```
 ## prettierrc.json
 ```
