@@ -19,21 +19,35 @@ git config user.email "luisfelipelfsp3@gmail.com"
     "workbench.tree.indent": 15,
     "editor.defaultFormatter": "esbenp.prettier-vscode",
     "[python]": {
-        "editor.formatOnType": true,
-        "editor.defaultFormatter": "ms-python.python"
+        "editor.tabSize": 4,
+        "editor.defaultFormatter": "ms-python.autopep8",
     },
-    "workbench.editorAssociations": {
-        "*.db": "sqlite-viewer.option"
+    "[java]": {
+        "editor.defaultFormatter": "redhat.java",
+        "editor.tabSize": 4
     },
     "editor.bracketPairColorization.enabled": true,
     "[javascript]": {
+        "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
     "[javascriptreact]": {
+        "editor.tabSize": 2,
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
     },
     "[css]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "workbench.editorAssociations": {
+        "*.db": "sqlite-viewer.option"
     },
     "diffEditor.wordWrap": "on",
     "emmet.syntaxProfiles": {
@@ -55,26 +69,19 @@ git config user.email "luisfelipelfsp3@gmail.com"
         "*.tsx": "typescriptreact",
         ".env.*": "dotenv",
         ".prettierrc": "json",
-        "*.html": "html"
+        "*.html": "html",
+        "*.css": "css",
+        "*.js": "javascript",
+        "*.json": "json",
+        "*.ts": "typescript",
+        "*.md": "markdown",
+        "*.jsx": "javascriptreact"
     },
-    "screencastMode.onlyKeyboardShortcuts": true,
     "editor.parameterHints.enabled": false,
     "editor.renderLineHighlight": "gutter",
-    "cSpell.language": "en,pt",
-    // "material-icon-theme.languages.associations": {
-    //     "dotenv": "tune"
-    // },
-    "typescript.updateImportsOnFileMove.enabled": "never",
-    // "material-icon-theme.files.associations": {
-    //     "tsconfig.json": "tune",
-    //     "*.webpack.js": "webpack",
-    //     "*.proto": "3d",
-    //     "ormconfig.json": "database"
-    // },
-    // "material-icon-theme.activeIconPack": "nest",
+    "typescript.updateImportsOnFileMove.enabled": "always",
     "editor.suggestSelection": "first",
     "explorer.confirmDelete": false,
-    "gitlens.codeLens.recentChange.enabled": false,
     "terminal.integrated.showExitAlert": false,
     "[prisma]": {
         "editor.formatOnSave": true,
@@ -89,40 +96,7 @@ git config user.email "luisfelipelfsp3@gmail.com"
         "javascript": "javascriptreact"
     },
     "liveshare.featureSet": "insiders",
-    // "material-icon-theme.folders.associations": {
-    //     "adapters": "contract",
-    //     "grpc": "pipe",
-    //     "kube": "kubernetes",
-    //     "main": "lib",
-    //     "websockets": "pipe",
-    //     "implementations": "core",
-    //     "protos": "pipe",
-    //     "entities": "class",
-    //     "kafka": "pipe",
-    //     "use-cases": "functions",
-    //     "migrations": "tools",
-    //     "schemas": "class",
-    //     "useCases": "functions",
-    //     "eslint-config": "tools",
-    //     "typeorm": "database",
-    //     "_shared": "shared",
-    //     "mappers": "meta",
-    //     "fakes": "mock",
-    //     "modules": "components",
-    //     "subscribers": "messages",
-    //     "domain": "class",
-    //     "protocols": "contract",
-    //     "infra": "app",
-    //     "view-models": "views",
-    //     "presentation": "template",
-    //     "dtos": "typescript",
-    //     "http": "container",
-    //     "providers": "include",
-    //     "factories": "class",
-    //     "repositories": "mappings"
-    // },
     "editor.acceptSuggestionOnCommitCharacter": false,
-    "explorer.compactFolders": false,
     "git.enableSmartCommit": true,
     "editor.accessibilitySupport": "off",
     "explorer.confirmDragAndDrop": false,
@@ -137,7 +111,6 @@ git config user.email "luisfelipelfsp3@gmail.com"
     ],
     "editor.semanticHighlighting.enabled": false,
     "breadcrumbs.enabled": true,
-    "gitlens.codeLens.authors.enabled": false,
     "security.workspace.trust.untrustedFiles": "newWindow",
     "files.exclude": {
         "**\/CVS": true,
@@ -148,10 +121,7 @@ git config user.email "luisfelipelfsp3@gmail.com"
         // "node_modules": true
     },
     "tabnine.experimentalAutoImports": true,
-    "gitlens.codeLens.enabled": false,
     "workbench.iconTheme": "material-icon-theme",
-    "polacode.transparentBackground": true,
-    "polacode.target": "snippet",
     "editor.minimap.enabled": false,
     "update.mode": "start",
     "terminal.integrated.gpuAcceleration": "off",
@@ -169,7 +139,6 @@ git config user.email "luisfelipelfsp3@gmail.com"
     "editor.unicodeHighlight.allowedLocales": {
         "es": true
     },
-    "prettier.useTabs": true,
     "tailwindCSS.classAttributes": [
         "class",
         "className",
@@ -177,6 +146,11 @@ git config user.email "luisfelipelfsp3@gmail.com"
         "containerStyle",
         "style"
     ],
-    "editor.cursorBlinking": "expand"
+    "editor.cursorBlinking": "expand",
+    "css.lint.unknownAtRules": "ignore",
+    "terminal.integrated.env.windows": {},
+    "console-ninja.featureSet": "Community",
+    "prettier.useTabs": true,
+    "workbench.editor.empty.hint": "hidden",
 }
 ```
