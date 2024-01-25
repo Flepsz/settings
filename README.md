@@ -7,9 +7,8 @@ git config user.email "luisfelipelfsp3@gmail.com"
 ## VsCode settings.json
 ```
 {
-    "workbench.colorTheme": "OM Theme (Default Dracula Italic)",
+    "workbench.colorTheme": "Min Dark",
     "editor.tabSize": 2,
-    "files.autoSave": "afterDelay",
     "editor.fontFamily": "Fira Code",
     "editor.fontLigatures": true,
     "terminal.integrated.fontSize": 14,
@@ -101,8 +100,8 @@ git config user.email "luisfelipelfsp3@gmail.com"
     "editor.accessibilitySupport": "off",
     "explorer.confirmDragAndDrop": false,
     "editor.codeActionsOnSave": {
-        "source.fixAll.eslint": true,
-        "source.addMissingImports": true
+        "source.fixAll.eslint": "explicit",
+        "source.addMissingImports": "explicit"
     },
     "eslint.validate": [
         "javascript",
@@ -121,7 +120,7 @@ git config user.email "luisfelipelfsp3@gmail.com"
         // "node_modules": true
     },
     "tabnine.experimentalAutoImports": true,
-    "workbench.iconTheme": "material-icon-theme",
+    "workbench.iconTheme": "symbols",
     "editor.minimap.enabled": false,
     "update.mode": "start",
     "terminal.integrated.gpuAcceleration": "off",
@@ -129,7 +128,6 @@ git config user.email "luisfelipelfsp3@gmail.com"
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "workbench.editor.untitled.hint": "hidden",
     "liveServer.settings.donotShowInfoMsg": true,
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
@@ -152,5 +150,10 @@ git config user.email "luisfelipelfsp3@gmail.com"
     "console-ninja.featureSet": "Community",
     "prettier.useTabs": true,
     "workbench.editor.empty.hint": "hidden",
+    "files.autoSave": "afterDelay",
+    "[sql]": {
+        "editor.defaultFormatter": "ms-mssql.mssql"
+    },
+    "symbols.hidesExplorerArrows": false,
 }
 ```
