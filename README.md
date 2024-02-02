@@ -1,11 +1,11 @@
 # Settings Flepsz
 ## Git Config
-```
+```bash
 git config user.name "Flepsz"
 git config user.email "luisfelipelfsp3@gmail.com"
 ```
 ## VsCode settings.json
-```
+```json
 {
     "workbench.colorTheme": "Min Dark",
     "editor.tabSize": 2,
