@@ -159,4 +159,4 @@ git config user.email "luisfelipelfsp3@gmail.com"
 ```
 
 ## Download Fira Code Font
-[<a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="https://raw.githubusercontent.com/tonsky/FiraCode/master/extras/download.png" width="520"></a>](https://raw.githubusercontent.com/tonsky/FiraCode/master/extras/download.png)https://raw.githubusercontent.com/tonsky/FiraCode/master/extras/download.png
+<a href="https://github.com/tonsky/FiraCode/releases/download/6.2/Fira_Code_v6.2.zip"><img alt="Fira_Code_v6.2.zip - December 6, 2021 - 2.5 MB" src="https://raw.githubusercontent.com/tonsky/FiraCode/master/extras/download.png" width="520"></a>
