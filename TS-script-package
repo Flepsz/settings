@@ -1,5 +1,0 @@
-```
-"scripts": {
-    "dev:server": "ts-node-dev --respawn --transpile-only src/index.ts"
-},
-```
