@@ -1,4 +1,5 @@
 # Settings Flepsz
+This repository houses my personal development environment settings, meticulously crafted to optimize my coding workflow and enhance productivity. It encompasses configurations for Visual Studio Code, preferred fonts, and Git configurations, ensuring a consistent and efficient development experience across my projects.
 ## Git Config
 ```bash
 git config user.name "Flepsz"
