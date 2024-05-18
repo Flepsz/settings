@@ -7,6 +7,7 @@ fi
 
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+source /opt/asdf-vm/asdf.sh
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
@@ -14,7 +15,7 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 export PATH=$HOME/.local/bin:$HOME/.cargo/bin:$PATH
 
 alias ls="exa --icons"
-alias cat="bat"
+alias bat="bat --style=auto"
 alias ps="procs"
 alias du="dust"
 alias top="ytop"
