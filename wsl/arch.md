@@ -16,7 +16,7 @@ Extract the content into a folder on your C: drive called `Arch`.
 Open a terminal in the `Arch` directory and execute:
 
 ```powershell
-arch
+.\Arch.exe
 ```
 
 After installation, the distro will be registered in WSL. You can check by restarting the terminal and running:
