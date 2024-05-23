@@ -45,7 +45,7 @@ passwd {username}
 Open another terminal in the `Arch` folder and set the default user:
 
 ```powershell
-Arch.exe config --default-user {username}
+.\Arch.exe config --default-user {username}
 ```
 
 You can check the current user in Arch by running:
