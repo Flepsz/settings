@@ -33,4 +33,28 @@ For optimal display of the Powerlevel10k theme, install the following font packa
 yay -S ttf-meslo-nerd-font-powerlevel10k powerline-fonts awesome-terminal-fonts
 ```
 
+## Install plugins
+
+First we need to create a folder called `.zsh` at root(`~`)
+
+```bash
+mkdir .zsh
+```
+
+For example install `zsh-autosuggestions` plugin
+
+1. Clone this repository somewhere on your machine. This guide will assume `~/.zsh/zsh-autosuggestions`.
+
+    ```sh
+    git clone https://github.com/zsh-users/zsh-autosuggestions ~/.zsh/zsh-autosuggestions
+    ```
+
+2. Add the following to your `.zshrc`:
+
+    ```sh
+    source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
+    ```
+
+
+
 By following these steps, you'll have Zsh with the Powerlevel10k theme set up in your ArchWSL environment, providing a modern and visually appealing command-line interface.
